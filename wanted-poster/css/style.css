@@ -111,9 +111,16 @@ h5 {
 
 /* Section & Paragraph */
 
-section {}
+section {
+    margin-top: 0.5rem;
+}
 
-p{}
+p{
+    margin: 1rem auto;
+    padding: 0 1rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 
