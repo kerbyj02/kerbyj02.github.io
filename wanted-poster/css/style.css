@@ -119,7 +119,7 @@ p{
     margin: 1rem auto;
     padding: 0 1rem;
     width: 90%;
-    text-align: left;
+    text-align:left;
 }
 
 /* Image & Figure */
@@ -139,6 +139,9 @@ figcaption {
     text-align: right;
 }
 
+h4>span {
+    padding: 0 0.5rem;
+}
 /* Footer */
 
 footer {
