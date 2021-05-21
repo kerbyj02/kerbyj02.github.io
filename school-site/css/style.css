@@ -183,17 +183,17 @@ nav a {
  text-align: center; 
  font-size: 1.125rem;
  margin-bottom: 1.5rem;
- border: 0.0625rem solid #33658A
+ border: 0.0625rem solid #33658A;
 }
 
 nav a:focus, nav a:hover {
 color: #fff;
-background-color: #33658A
+background-color: #33658A;
 }
 
 nav a:active {
 color: #fff;
-background-color: #000
+background-color: #000;
 }
 
 
