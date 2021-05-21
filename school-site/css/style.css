@@ -98,10 +98,11 @@ font-style: normal;
 /* Typography Styles */
 
 html {
-font-family: montserrat; 
+font-family: montserrat, Arial, sans-serif;
 
 h1, h2 {
-    
+    font-family: josefinslab, Georgia, serif;
+    letter-spacing: 0.125rem; 
 }
 
 h1 {
