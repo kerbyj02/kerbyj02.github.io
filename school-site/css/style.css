@@ -80,19 +80,51 @@ header, footer {
 /* Imported Typfaces */
 
 
+@font-face {
 
+}
+
+@font-face {
+
+}
 
 
 /* Typography Styles */
 
+html {
 
+}
 
+h1 {
 
+}
+
+h2{
+
+}
+
+h2 + p {
+
+}
+
+p {
+
+}
+
+li {
+
+}
+
+figcaption {
+
+}
 
 
 /* Link Styling */
 
-
+a {
+    
+}
 
 
 
