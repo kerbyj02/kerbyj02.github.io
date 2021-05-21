@@ -98,15 +98,21 @@ header, footer {
 /* Typography Styles */
 
 html {
-
+font-family: montserrat, Arial, sans-serif,
 }
 
+h1, h2 {
+   Font-family: josefinslab, Georgia, serif;
+    letter-spacing: 0.125rem; 
+}
 h1 {
-
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
 }
 
 h2{
-
+ font-size: 1.5rem;
 }
 
 h2 + p {
