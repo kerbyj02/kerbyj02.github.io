@@ -156,11 +156,13 @@ a:focus, a:hover {
 /* List Styling */
 
 ul {
+    margin: 1rem 0;
+    list-style-type: square;
 
-}
-
+}   
 ol {
-
+    margin: 1rem 0;
+    list-style-type: lower-alpha;
 }
 
 .long-list a:hover {
