@@ -155,7 +155,7 @@ text-decoration: none;
 /* List Styling */
 
 ul {
-margine: 1rem 0;
+margin: 1rem 0;
 list-style-type: square;
 }
 
@@ -165,7 +165,7 @@ list-style-type: lower-alpha;
 }
 
 .long-list a:hover {
-
+text-transform: uppercase;
 }
 
 
