@@ -48,4 +48,38 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+@font-face {
+    font-family: "Robo";
+    src: url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+font-face{
+    font-family: 'Ultra';
+    src: url('../fonts/sans-serif/opensans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Typography */
+
+/* GENERAL SETUP AND DEFAULTS */
+
+*
+{
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* LAYOUT */
+
 
