@@ -49,15 +49,15 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 @font-face {
-    font-family: "Robo";
-    src: url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
+    font-family: "Ultra";
+    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-font-face{
-    font-family: 'Ultra';
-    src: url('../fonts/sans-serif/opensans-regular.ttf') format('truetype');
+@font-face {
+    font-family: 'Robo';
+    src: url('../fonts/sans-serif/roboto-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -65,8 +65,8 @@ font-face{
 
 /* GENERAL SETUP AND DEFAULTS */
 
-*
-{
+
+* {
     box-sizing: border-box;
 }
 
@@ -82,4 +82,42 @@ body {
 
 /* LAYOUT */
 
+.main-section {
+    display: grid;
+    grid-template-columns:4fr 1fr; 
+    grid-gap: 1rem;
+}
 
+article {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+aside {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.subsection {
+    display: flex;
+  }
+
+  /* IMAGES AND FIGURES */
+
+  img {
+      width: 100%;
+  }
+
+  figure {
+      margin: 0px;
+  }
+
+  .article-image {
+      width: 33%;
+      float: left;
+      margin-right: .75rem;
+  }
+
+  .subsection figure {
+      margin: 0rem 0.25rem;
+  }
