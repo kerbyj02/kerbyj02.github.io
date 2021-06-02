@@ -56,18 +56,44 @@
 }
 
 @font-face {
-    font-family: 'Robo';
+    font-family: 'Roboto';
     src: url('../fonts/sans-serif/roboto-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/sans-serif/lato-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Typography */
+p {
+font-family:roboto, sans-serif, Arial;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: latos, sans-serif, Helvetica;
+    letter-spacing: 0.0325rem;
+}
+
+h1 {
+   font-size: 3rem;
+   letter-spacing:0.25rem; 
+   transform: rotate(10deg);
+}
+.highlight {
+   font-family: ultra, serif, Georgia; 
+}
 
 /* GENERAL SETUP AND DEFAULTS */
 
 
-* {
-    box-sizing: border-box;
+* { 
+  box-sizing: border-box;
 }
 
 html {
