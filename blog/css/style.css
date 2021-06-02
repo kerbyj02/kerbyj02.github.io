@@ -83,7 +83,7 @@ h1, h2, h3, h4 {
 h1 {
    font-size: 3rem;
    letter-spacing:0.25rem; 
-   transform: rotate(10deg);
+   transform: rotate(-5deg);
 }
 .highlight {
    font-family: ultra, serif, Georgia; 
@@ -107,6 +107,14 @@ body {
 }
 
 /* LAYOUT */
+
+heading {
+    padding: .5rem 0rem 1rem 0rem;
+}
+
+nav {
+    margin-top: 3rem;
+}
 
 .main-section {
     display: grid;
