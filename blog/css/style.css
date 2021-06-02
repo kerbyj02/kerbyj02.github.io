@@ -120,4 +120,8 @@ aside {
 
   .subsection figure {
       margin: 0rem 0.25rem;
+      background-color: #f2e4c9;
   }
+.subsection figure figcaption {
+    padding: 0.5rem 0.5rem;
+}
