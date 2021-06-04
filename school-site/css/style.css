@@ -179,7 +179,7 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
+    text-decoration: overline;
     display: inline-block;
     width: 100%;
     line-height: 3;

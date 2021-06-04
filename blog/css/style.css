@@ -145,12 +145,15 @@ aside {
     grid-row: 1;
     border-left:1px solid #28234b;
     padding-left: 0.75rem;
+    margin: 10px 0;
+    text-overflow: ellipsis;
 }
 
 aside p {
     border-bottom: 1px solid #28234b;
     padding-bottom: 1.5rem;
 }
+
 
 .subsection {
     display: flex;
@@ -185,14 +188,38 @@ a {
 }
 
 nav a {
+    color:rgb(10, 10, 146);
     display: inline-block;
     padding: 1.25rem 2rem;
     font-size: 1.5rem;
-    font-family: lato, Arial, sans-serif;
-    color: #28234b;
+    font-family: lato, Arial, sans-serif;  
 }
+
 
 nav {
     border-top: 1px solid #28234b;
     border-bottom: 1px solid #28234b;
 }
+
+nav a:focus, nav a:hover { 
+text-decoration: line-through;
+   color: rgb(15, 14, 14);
+  
+}
+
+button {
+    margin-top:3rem;
+    padding: 10px 30px;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    color: #f1f1f1;
+    background-color: #3a19f3;
+    border: rgb(11, 10, 14);
+    border-radius: 10px;
+    box-shadow: 0 2px rgb(63, 63, 63);
+}
+
+/* footer */
+
