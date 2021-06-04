@@ -202,13 +202,16 @@ nav {
 }
 
 nav a:focus, nav a:hover { 
+ text-transform: uppercase;    
 text-decoration: line-through;
+transform: rotate(4deg);
    color: rgb(15, 14, 14);
   
 }
 
 button {
     margin-top:3rem;
+    margin-bottom: 3rem;
     padding: 10px 30px;
     font-size: 35px;
     text-align: center;
