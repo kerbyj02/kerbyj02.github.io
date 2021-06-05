@@ -149,6 +149,13 @@ aside {
     text-overflow: ellipsis;
 }
 
+.expand {
+    display: flex;
+    padding: .25rem 0 .5rem 0;
+    font-size: .25rem;
+    border: solid 1px #000000;
+}
+
 aside p {
     border-bottom: 1px solid #28234b;
     padding-bottom: 1.5rem;
