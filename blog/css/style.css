@@ -150,10 +150,11 @@ aside {
 }
 
 .expand {
+    outline: none;
     display: flex;
     padding: .25rem 0 .5rem 0;
     font-size: .25rem;
-    border: solid 1px #000000;
+   
 }
 
 aside p {
@@ -219,14 +220,14 @@ font-weight: bolder;
 
 button {
     margin-top:3rem;
-    margin-bottom: 3rem;
-    padding: 10px 30px;
+    margin-bottom: 5rem;
+    padding: 8px 25px;
     font-size: 35px;
     text-align: center;
     cursor: pointer;
     outline:none;
     color: #f1f1f1;
-    background-color: #3a19f3;
+    background-color: #4130a7;
     border: rgb(11, 10, 14);
     border-radius: 10px;
     box-shadow: 0 2px rgb(63, 63, 63);
@@ -234,3 +235,9 @@ button {
 
 /* footer */
 
+
+.cite { 
+    font-size: 13px;
+ text-align: right;
+ max-width: 700px;
+} 
